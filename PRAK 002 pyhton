@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    printf("Selamat pagi, Dzaki!\n");
+    printf("Selamat siang, Dzaki!\n");
+    printf("Selamat sore, Dzaki!\n");
+    return 0;
+}
