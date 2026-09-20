@@ -1,0 +1,14 @@
+import math
+
+putaran = 5
+jarak = 14
+
+# Rumus: Keliling 1 putaran = jarak / putaran = 2 * pi * r
+# r = (jarak / putaran) / (2 * math.pi)
+r = (jarak / putaran) / (2 * math.pi)
+
+print("Dik :")
+print(f"Pak Dengklek mengelilingi taman = {putaran} putaran")
+print(f"jarak tempuh Pak Dengklek = {jarak} kilometer/n")
+print("jawaban")
+print(f"jari-jari taman yang dikelilingi Pak Dengklek adalah {r:.2f} kilometer")
