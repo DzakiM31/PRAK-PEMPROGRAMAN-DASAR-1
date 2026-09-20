@@ -1,0 +1,11 @@
+a = 9
+b = 6
+x = 10
+y = 7
+
+hasil = ((a + b) * x) / y
+print(f"variable bernilai a bernilai {a}")
+print(f"variable bernilai b bernilai {b}")
+print(f"variable bernilai x bernilai {x}")
+print(f"variable bernilai y bernilai {y}")
+print(f"hasil dari a ditambah b dikali x dibagi y adalah {hasil}")
