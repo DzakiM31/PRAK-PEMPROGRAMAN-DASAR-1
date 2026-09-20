@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a = 9, b = 6, x = 10, y = 7;
+    float hasil = (float)((a + b) * x) / y;
+
+    printf("variable a = %d\n", a);
+    printf("variable b = %d\n", b);
+    printf("variable x = %d\n", x);
+    printf("variable y = %d\n", y);
+    printf("hasil dari a ditambah b dikali x dibagi y = %.2f\n", hasil);
+    return 0;
+}
