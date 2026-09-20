@@ -1,0 +1,14 @@
+a = 4
+b = 8
+c = 3
+
+sama_a_b = int(a == b)
+lebih_besar_b_c = int(b > c)
+tidak_sama_a_c = int(a != c)
+
+print(f"variable a bernilai {a}")
+print(f"variable b bernilai {b}")
+print(f"variable c bernilai {c}")
+print(f"apakah a sama dengan b ? jawabannya adalah {sama_a_b}")
+print(f"apakah b lebih besar dari c ? jawabannya adalah {lebih_besar_b_c}")
+print(f"apakah a tidak sama dengan c ? jawabannya adalah  {tidak_sama_a_c}")
