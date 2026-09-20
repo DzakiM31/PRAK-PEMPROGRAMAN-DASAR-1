@@ -1,0 +1,26 @@
+import math
+
+alas = 5
+tinggi = 12
+
+# Berdasarkan gambar segitiga :
+# Sisi A = Tinggi
+# Sisi C = Alas
+# Sisi B = Miring
+
+sisi_a = tinggi
+sisi_c = alas
+sisi_b = math.sqrt(sisi_a**2 + sisi_c**2)
+
+keliling = sisi_a + sisi_b + sisi_c
+luas = 0.5 * sisi_a * sisi_c
+
+print("Dik:") 
+print("Alas =", alas)
+print("Tinggi =", tinggi)
+print("Jawaban:")
+print("Sisi A (Tinggi) =", sisi_a)
+print("Sisi C (Alas) =", sisi_c)
+print("Sisi B (Miring) =", sisi_b)
+print("Keliling =", keliling)
+print("Luas =", luas)
