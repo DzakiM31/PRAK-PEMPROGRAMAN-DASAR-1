@@ -1,0 +1,10 @@
+harga_a = 400000
+harga_b = 350000
+
+setelah_diskon_a = int(harga_a * (1 - 0.13))
+setelah_diskon_b = int(harga_b * (1 - 0.21))
+
+print(f"harga sepatu a adalah {harga_a}")
+print(f"harga sepatu b adalah {harga_b}")
+print(f"sepatu a mendapatkan diskon 13% sehingga harganya menjadi {setelah_diskon_a}")
+print(f"sepatu b mendapatkan diskon 21% sehingga harganya menjadi {setelah_diskon_b}")
