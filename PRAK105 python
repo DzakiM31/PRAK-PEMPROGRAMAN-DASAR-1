@@ -1,0 +1,12 @@
+a = 9
+b = 5
+x = 8
+y = 8
+
+total_sisa = (a % b) + (x % y)
+
+print(f"variable a bernilai {a}")
+print(f"variable b bernilai {b}")
+print(f"variable x bernilai {x}")
+print(f"variable y bernilai {y}")
+print(f"total sisa bagi dari a dibagi b dan x dibagi y adalah {total_sisa}")
