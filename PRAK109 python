@@ -1,0 +1,8 @@
+pasukan_yuzhong = 958730
+jumlah_pahlawan = 5 # Zilong, Ling, Baxia, Wanwan, Chang'e
+
+pasukan_per_pahlawan = pasukan_yuzhong // jumlah_pahlawan
+
+print("Jumlah pasukan Yuzhong:", pasukan_yuzhong)
+print("Jumlah pahlawan:", jumlah_pahlawan)
+print("Jumlah pasukan per pahlawan:", pasukan_per_pahlawan)
