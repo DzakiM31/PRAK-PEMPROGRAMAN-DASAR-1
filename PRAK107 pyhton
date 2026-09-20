@@ -1,0 +1,15 @@
+sisi1 = 4
+sisi2 = 5
+sisi3 = 7
+harga_per_meter = 85000
+
+keliling = sisi1 + sisi2 + sisi3
+harga_total = keliling * harga_per_meter
+
+print("Dik : ")
+print(f"panjang sisi segitiga : {sisi1}, {sisi2}, {sisi3}")
+print(f"keliling Tanah pak Denglek adalah {keliling}")
+print(f"harga tanah per meter adalah {harga_per_meter}")
+print("jawab :")
+print(f"Biaya yang harus dibayar pak Denglek adalah : Rp {harga_total}")
+
