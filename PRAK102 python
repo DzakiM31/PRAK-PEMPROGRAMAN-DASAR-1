@@ -1,0 +1,9 @@
+a = 4
+b = 8
+c = 3
+hasil = (a * b) / c
+
+print(f"variable a bernilai {a}")
+print(f"variable b bernilai {b}")
+print(f"variable c bernilai {c}")
+print(f"hasil dari a dikali b dibagi c adalah {hasil}")
