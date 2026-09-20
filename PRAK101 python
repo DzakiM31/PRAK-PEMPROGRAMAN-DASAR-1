@@ -1,0 +1,13 @@
+#Variable
+x = 5
+y = 7
+z = 9
+
+#Jumlah Variable
+jumlah = x + y + z
+
+#Hasil
+print(f"variable x = {x}")
+print(f"variable y = {y}")
+print(f"variable z = {z}")
+print(f"jumlah dari ketiga variable = {jumlah}")
