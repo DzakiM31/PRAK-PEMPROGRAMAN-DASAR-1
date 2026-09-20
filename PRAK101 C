@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // variable
+    int x = 5;
+    int y = 7;
+    int z = 9;
+
+    //jumlah variable
+    int jumlah = x + y + z;
+
+    //hasil
+    printf("variable x = %d\n", x);
+    printf("variable y = %d\n", y);
+    printf("variable z = %d\n", z);
+    printf("jumlah variable = %d\n", jumlah);
+    return 0;
+}
