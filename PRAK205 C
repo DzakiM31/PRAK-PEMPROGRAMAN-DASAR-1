@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, alas = 0;
+    scanf("%d %d", &A, &B);
+
+    while (alas * alas < B * B - A * A)
+        alas++;
+
+    printf("Alas = %d cm\n", alas);
+    printf("Tinggi = %d cm\n", A);
+    printf("Keliling = %d cm\n", A + B + alas);
+    printf("Luas = %d cm^2\n", alas * A / 2);
+    return 0;
+}
