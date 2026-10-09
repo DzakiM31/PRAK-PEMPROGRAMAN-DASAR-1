@@ -1,0 +1,12 @@
+A = float(input("Masukkan A: "))
+B = float(input("Masukkan B: "))
+
+alas = int((B * B - A * A) ** 0.5)
+tinggi = A
+Keliling = A + B + alas
+Luas = alas * tinggi / 2
+
+print(f"Alas = {alas:.0f} cm")
+print(f"Tinggi = {tinggi:.0f} cm")
+print(f"Keliling = {Keliling:.0f} cm")
+print(f"Luas = {Luas:.0f} cm^2")
