@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int k, i;
+    char simbol;
+
+    scanf("%d %c", &k, &simbol);
+
+    for (i = 1; i <= 50; i++) {
+        if (i % k == 0) {
+            printf("%c ", simbol);
+        } else {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+    return 0;
+}
