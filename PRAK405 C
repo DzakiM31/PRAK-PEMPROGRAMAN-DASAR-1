@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int n, k, i, j, jumlah, total = 0;
+    scanf("%d", &n);
+    scanf("%d", &k);
+
+    for (i = 1; i <= n; i++) {             
+        jumlah = 0;
+        for (j = i; j >= 1; j--) {         
+            printf("(%d * %d)", j, k);
+            jumlah = jumlah + j * k;
+            if (j != 1) {                  
+                printf(" + ");
+            }
+        }
+        printf(" = %d\n", jumlah);
+        total = total + jumlah;
+    }
+
+    printf("%d\n", total);
+    return 0;
+}
