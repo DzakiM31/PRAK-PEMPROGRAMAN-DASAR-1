@@ -1,0 +1,14 @@
+a, b = map(int, input().split())
+
+if a <= b:
+    langkah = 1
+else:
+    langkah = -1
+
+selisih = abs(a - b)
+
+for i in range(selisih + 1):
+    print(a + i * langkah, b - i * langkah, end="")
+    if i != selisih:            
+        print(" - ", end="")
+print()
