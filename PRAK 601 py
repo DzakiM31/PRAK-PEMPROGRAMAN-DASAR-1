@@ -1,0 +1,19 @@
+baris, kolom = map(int, input().split())
+angka = input().split()
+matrix = []
+k = 0
+
+for i in range(baris):
+    isi_baris = []
+    for j in range(kolom):
+        isi_baris.append(int(angka[k]))
+        k = k + 1
+    matrix.append(isi_baris)
+
+for i in range(baris):
+    for j in range(kolom):
+        if j < kolom - 1:
+            print(matrix[i][j], end=' ')
+        else:
+            print(matrix[i][j])
+                
