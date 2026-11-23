@@ -1,0 +1,9 @@
+n = int(input())
+zetsu = input().split()
+
+for i in range(n):
+    hasil = int(zetsu[i]) * (i + 1)     
+    if i < n - 1:
+        print(hasil, end=" ")
+    else:
+        print(hasil)
