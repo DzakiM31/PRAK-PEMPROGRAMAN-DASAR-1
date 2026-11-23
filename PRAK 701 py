@@ -1,0 +1,12 @@
+depan = input("Nama Depan : ")
+belakang = input("Nama Belakang : ")
+
+lengkap = depan + " " + belakang
+
+panjang = 0
+for huruf in lengkap:
+    if huruf != " ":
+        panjang = panjang + 1
+
+print("Nama Lengkap :", lengkap)
+print("Panjang Nama (tanpa spasi) :", panjang)
