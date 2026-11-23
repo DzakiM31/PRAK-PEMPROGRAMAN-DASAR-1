@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char kalimat[200];
+    int i, vokal = 0, konsonan = 0;
+    char h;
+
+    printf("Kalimat : ");
+    scanf(" %[^\n]", kalimat);
+
+    for (i = 0; kalimat[i] != '\0'; i++) {
+        h = tolower(kalimat[i]);
+        if (h == 'a' || h == 'i' || h == 'u' || h == 'e' || h == 'o') {
+            vokal++;
+        } else if (isalpha(h)) {    
+            konsonan++;
+        }
+    }
+
+    printf("Jumlah Vokal : %d\n", vokal);
+    printf("Jumlah Konsonan : %d\n", konsonan);
+    return 0;
+}
